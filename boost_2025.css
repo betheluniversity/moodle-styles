@@ -332,7 +332,8 @@ span.logo.d-none.d-sm-inline {
 }*/
 
 .activity-icon.collaboration img.activityicon,
-.optionicon.collaboration img.activityicon {
+.optionicon.collaboration img.activityicon,
+.activityiconcontainer.collaboration img.activityicon {
     filter: brightness(0) saturate(100%) invert(74%) sepia(16%) saturate(1577%)
         hue-rotate(55deg) brightness(82%) contrast(84%) !important;
 }
@@ -340,19 +341,23 @@ span.logo.d-none.d-sm-inline {
 .activity-icon.assessment img.activityicon,
 .activity-icon.interactivecontent img.activityicon,
 .optionicon.assessment img.activityicon,
-.optionicon.interactivecontent img.activityicon {
+.optionicon.interactivecontent img.activityicon,
+.activityiconcontainer.assessment img.activityicon,
+.activityiconcontainer.interactivecontent img.activityicon {
     filter: brightness(0) saturate(100%) invert(87%) sepia(26%) saturate(6712%)
         hue-rotate(0deg) brightness(104%) contrast(106%) !important;
 }
 
 .activity-icon.communication img.activityicon,
-.optionicon.communication img.activityicon {
+.optionicon.communication img.activityicon,
+.activityiconcontainer.communication img.activityicon {
     filter: brightness(0) saturate(100%) invert(66%) sepia(57%) saturate(530%)
         hue-rotate(177deg) brightness(94%) contrast(89%) !important;
 }
 
 .activity-icon.content img.activityicon,
-.optionicon.content img.activityicon {
+.optionicon.content img.activityicon,
+.activityiconcontainer.content img.activityicon {
     filter: brightness(0) saturate(100%) invert(32%) sepia(87%) saturate(6969%)
         hue-rotate(188deg) brightness(90%) contrast(111%) !important;
 }
@@ -360,7 +365,9 @@ span.logo.d-none.d-sm-inline {
 .activity-icon.administration img.activityicon,
 .activity-icon.other img.activityicon,
 .optionicon.administration img.activityicon,
-.optionicon.other img.activityicon {
+.optionicon.other img.activityicon,
+.activityiconcontainer.administration img.activityicon,
+.activityiconcontainer.other img.activityicon {
     filter: brightness(0) saturate(100%) invert(8%) sepia(76%) saturate(3484%)
         hue-rotate(207deg) brightness(86%) contrast(88%) !important;
 }
